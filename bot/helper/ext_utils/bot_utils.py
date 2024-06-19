@@ -199,7 +199,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = '<b><a href ="https://t.me/Reaperzclub">Powered By Reaper's CLub</a></b>'
+    msg = '<b><a href ="https://t.me/Reaperzclub">Powered By Reapers-Club</a></b>'
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
