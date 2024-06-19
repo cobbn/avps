@@ -402,7 +402,7 @@ if BASE_URL:
         shell=True,
     )
 
-srun(["xnox", "-d", "--profile=."])
+srun(["qbittorrent-nox", "-d", "--profile=."])
 if not ospath.exists('.netrc'):
     with open('.netrc', 'w'):
        pass
